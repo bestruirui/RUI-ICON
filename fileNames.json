@@ -1,0 +1,2579 @@
+[
+  {
+    "name": "act"
+  },
+  {
+    "name": "adguard-home"
+  },
+  {
+    "name": "adm"
+  },
+  {
+    "name": "airsonic"
+  },
+  {
+    "name": "airtel"
+  },
+  {
+    "name": "airvpn"
+  },
+  {
+    "name": "albert-heijn"
+  },
+  {
+    "name": "alertmanager"
+  },
+  {
+    "name": "alma"
+  },
+  {
+    "name": "amazon"
+  },
+  {
+    "name": "amd-light"
+  },
+  {
+    "name": "amd"
+  },
+  {
+    "name": "android-auto"
+  },
+  {
+    "name": "android-robot"
+  },
+  {
+    "name": "android"
+  },
+  {
+    "name": "ansible"
+  },
+  {
+    "name": "apache-cassandra"
+  },
+  {
+    "name": "apache-druid"
+  },
+  {
+    "name": "apache-openoffice"
+  },
+  {
+    "name": "apache-solr"
+  },
+  {
+    "name": "apache-subversion"
+  },
+  {
+    "name": "apache-tomcat"
+  },
+  {
+    "name": "apache"
+  },
+  {
+    "name": "apc"
+  },
+  {
+    "name": "apple-alt"
+  },
+  {
+    "name": "apple"
+  },
+  {
+    "name": "arch"
+  },
+  {
+    "name": "arduino"
+  },
+  {
+    "name": "argocd"
+  },
+  {
+    "name": "arm"
+  },
+  {
+    "name": "asana"
+  },
+  {
+    "name": "asus-rog"
+  },
+  {
+    "name": "asus-router"
+  },
+  {
+    "name": "asus"
+  },
+  {
+    "name": "asustor-data-master"
+  },
+  {
+    "name": "asustor"
+  },
+  {
+    "name": "at-t"
+  },
+  {
+    "name": "atlassian-bamboo"
+  },
+  {
+    "name": "atlassian-bitbucket"
+  },
+  {
+    "name": "atlassian-jira"
+  },
+  {
+    "name": "atlassian-opsgenie"
+  },
+  {
+    "name": "atlassian-trello"
+  },
+  {
+    "name": "atlassian"
+  },
+  {
+    "name": "audacity"
+  },
+  {
+    "name": "audiobookshelf"
+  },
+  {
+    "name": "auracast"
+  },
+  {
+    "name": "authelia"
+  },
+  {
+    "name": "autobrr"
+  },
+  {
+    "name": "avmfritzbox"
+  },
+  {
+    "name": "aws-ecs"
+  },
+  {
+    "name": "aws"
+  },
+  {
+    "name": "azuracast"
+  },
+  {
+    "name": "azure-container-instances"
+  },
+  {
+    "name": "azure-container-service"
+  },
+  {
+    "name": "azure-dns"
+  },
+  {
+    "name": "azure"
+  },
+  {
+    "name": "backblaze"
+  },
+  {
+    "name": "baserow"
+  },
+  {
+    "name": "bazarr"
+  },
+  {
+    "name": "beef"
+  },
+  {
+    "name": "bing"
+  },
+  {
+    "name": "bitcoin"
+  },
+  {
+    "name": "bitwarden"
+  },
+  {
+    "name": "blogger"
+  },
+  {
+    "name": "bluetooth"
+  },
+  {
+    "name": "bookstack"
+  },
+  {
+    "name": "bootstrap"
+  },
+  {
+    "name": "borg"
+  },
+  {
+    "name": "borgbackup"
+  },
+  {
+    "name": "boundary"
+  },
+  {
+    "name": "brave"
+  },
+  {
+    "name": "brocade"
+  },
+  {
+    "name": "browserless"
+  },
+  {
+    "name": "browsh"
+  },
+  {
+    "name": "c"
+  },
+  {
+    "name": "cacti"
+  },
+  {
+    "name": "calibre-web"
+  },
+  {
+    "name": "calibre"
+  },
+  {
+    "name": "canonical"
+  },
+  {
+    "name": "carrefour"
+  },
+  {
+    "name": "casaos"
+  },
+  {
+    "name": "castopod"
+  },
+  {
+    "name": "cc"
+  },
+  {
+    "name": "centos"
+  },
+  {
+    "name": "ceph"
+  },
+  {
+    "name": "cert-manager"
+  },
+  {
+    "name": "channels"
+  },
+  {
+    "name": "chatgpt"
+  },
+  {
+    "name": "checkmk"
+  },
+  {
+    "name": "chevereto"
+  },
+  {
+    "name": "chrome-canary"
+  },
+  {
+    "name": "chrome-dev"
+  },
+  {
+    "name": "chrome-devtools"
+  },
+  {
+    "name": "chrome-remote-desktop"
+  },
+  {
+    "name": "chrome"
+  },
+  {
+    "name": "chromecast"
+  },
+  {
+    "name": "chromium"
+  },
+  {
+    "name": "cilium"
+  },
+  {
+    "name": "cinny"
+  },
+  {
+    "name": "cisco"
+  },
+  {
+    "name": "closed-captioning"
+  },
+  {
+    "name": "cloud66"
+  },
+  {
+    "name": "cloud9"
+  },
+  {
+    "name": "cloudbeaver"
+  },
+  {
+    "name": "cloudflare-pages"
+  },
+  {
+    "name": "cloudflare-zero-trust"
+  },
+  {
+    "name": "cloudflare"
+  },
+  {
+    "name": "cloudpanel"
+  },
+  {
+    "name": "cockpit"
+  },
+  {
+    "name": "code"
+  },
+  {
+    "name": "codeberg"
+  },
+  {
+    "name": "coder"
+  },
+  {
+    "name": "codestats"
+  },
+  {
+    "name": "codex"
+  },
+  {
+    "name": "commafeed"
+  },
+  {
+    "name": "concourse"
+  },
+  {
+    "name": "contabo"
+  },
+  {
+    "name": "coredns"
+  },
+  {
+    "name": "coreos"
+  },
+  {
+    "name": "costco"
+  },
+  {
+    "name": "cozy"
+  },
+  {
+    "name": "cpanel"
+  },
+  {
+    "name": "cpp"
+  },
+  {
+    "name": "crowdsec"
+  },
+  {
+    "name": "cryptomator"
+  },
+  {
+    "name": "cryptpad"
+  },
+  {
+    "name": "csharp"
+  },
+  {
+    "name": "css"
+  },
+  {
+    "name": "cups"
+  },
+  {
+    "name": "cura"
+  },
+  {
+    "name": "cyberchef"
+  },
+  {
+    "name": "d-link"
+  },
+  {
+    "name": "dart"
+  },
+  {
+    "name": "datadog"
+  },
+  {
+    "name": "dc-os"
+  },
+  {
+    "name": "ddns-updater"
+  },
+  {
+    "name": "debian"
+  },
+  {
+    "name": "dell"
+  },
+  {
+    "name": "deluge"
+  },
+  {
+    "name": "deno"
+  },
+  {
+    "name": "diagrams-net"
+  },
+  {
+    "name": "digital-ocean"
+  },
+  {
+    "name": "directus"
+  },
+  {
+    "name": "discord"
+  },
+  {
+    "name": "discourse"
+  },
+  {
+    "name": "dlna"
+  },
+  {
+    "name": "docker-mailserver"
+  },
+  {
+    "name": "docker-moby"
+  },
+  {
+    "name": "docker"
+  },
+  {
+    "name": "docspell"
+  },
+  {
+    "name": "dokuwiki"
+  },
+  {
+    "name": "dovecot"
+  },
+  {
+    "name": "dozzle"
+  },
+  {
+    "name": "draytek"
+  },
+  {
+    "name": "droppy"
+  },
+  {
+    "name": "duckduckgo"
+  },
+  {
+    "name": "duo"
+  },
+  {
+    "name": "duplicati"
+  },
+  {
+    "name": "ebay"
+  },
+  {
+    "name": "edge-dev"
+  },
+  {
+    "name": "edge"
+  },
+  {
+    "name": "elastic-beats"
+  },
+  {
+    "name": "elastic-kibana"
+  },
+  {
+    "name": "elastic-logstash"
+  },
+  {
+    "name": "elastic"
+  },
+  {
+    "name": "elasticsearch"
+  },
+  {
+    "name": "electron"
+  },
+  {
+    "name": "element"
+  },
+  {
+    "name": "emacs"
+  },
+  {
+    "name": "emby"
+  },
+  {
+    "name": "emq"
+  },
+  {
+    "name": "emqx"
+  },
+  {
+    "name": "erste-george"
+  },
+  {
+    "name": "erste"
+  },
+  {
+    "name": "esphome"
+  },
+  {
+    "name": "espressif"
+  },
+  {
+    "name": "etcd"
+  },
+  {
+    "name": "etesync"
+  },
+  {
+    "name": "ethereum"
+  },
+  {
+    "name": "excalidraw"
+  },
+  {
+    "name": "facebook-messenger"
+  },
+  {
+    "name": "facebook"
+  },
+  {
+    "name": "fastmail"
+  },
+  {
+    "name": "fedora-alt"
+  },
+  {
+    "name": "fedora"
+  },
+  {
+    "name": "feedly"
+  },
+  {
+    "name": "ferdium"
+  },
+  {
+    "name": "filebot"
+  },
+  {
+    "name": "filebrowser"
+  },
+  {
+    "name": "fileflows"
+  },
+  {
+    "name": "filerun"
+  },
+  {
+    "name": "files"
+  },
+  {
+    "name": "filezilla"
+  },
+  {
+    "name": "fios"
+  },
+  {
+    "name": "firebase"
+  },
+  {
+    "name": "firefly"
+  },
+  {
+    "name": "firefox-beta"
+  },
+  {
+    "name": "firefox-developer-edition"
+  },
+  {
+    "name": "firefox-lite"
+  },
+  {
+    "name": "firefox-nightly"
+  },
+  {
+    "name": "firefox-reality"
+  },
+  {
+    "name": "firefox-send"
+  },
+  {
+    "name": "firefox"
+  },
+  {
+    "name": "firewalla"
+  },
+  {
+    "name": "flathub"
+  },
+  {
+    "name": "flatpak"
+  },
+  {
+    "name": "flood"
+  },
+  {
+    "name": "fluffychat"
+  },
+  {
+    "name": "fluidd"
+  },
+  {
+    "name": "flux-cd"
+  },
+  {
+    "name": "fly-io"
+  },
+  {
+    "name": "focalboard"
+  },
+  {
+    "name": "foldingathome"
+  },
+  {
+    "name": "fontawesome"
+  },
+  {
+    "name": "forgejo"
+  },
+  {
+    "name": "fortinet"
+  },
+  {
+    "name": "fossil"
+  },
+  {
+    "name": "franz"
+  },
+  {
+    "name": "freedombox"
+  },
+  {
+    "name": "freeipa"
+  },
+  {
+    "name": "freenas"
+  },
+  {
+    "name": "freenom"
+  },
+  {
+    "name": "freepbx"
+  },
+  {
+    "name": "freshping"
+  },
+  {
+    "name": "freshrss"
+  },
+  {
+    "name": "frigate"
+  },
+  {
+    "name": "fronius"
+  },
+  {
+    "name": "funkwhale"
+  },
+  {
+    "name": "gatsby"
+  },
+  {
+    "name": "gatus"
+  },
+  {
+    "name": "gboard"
+  },
+  {
+    "name": "gebera"
+  },
+  {
+    "name": "geckoview"
+  },
+  {
+    "name": "gentoo"
+  },
+  {
+    "name": "gigaset"
+  },
+  {
+    "name": "git"
+  },
+  {
+    "name": "gitbook"
+  },
+  {
+    "name": "gitea"
+  },
+  {
+    "name": "github"
+  },
+  {
+    "name": "gitlab"
+  },
+  {
+    "name": "gladys-assistant"
+  },
+  {
+    "name": "gluetun"
+  },
+  {
+    "name": "gmail"
+  },
+  {
+    "name": "go"
+  },
+  {
+    "name": "goodreads"
+  },
+  {
+    "name": "google-admin"
+  },
+  {
+    "name": "google-admob"
+  },
+  {
+    "name": "google-alerts"
+  },
+  {
+    "name": "google-analytics"
+  },
+  {
+    "name": "google-assistant"
+  },
+  {
+    "name": "google-calendar"
+  },
+  {
+    "name": "google-chat"
+  },
+  {
+    "name": "google-classroom"
+  },
+  {
+    "name": "google-cloud-platform"
+  },
+  {
+    "name": "google-cloud-print"
+  },
+  {
+    "name": "google-compute-engine"
+  },
+  {
+    "name": "google-contacts"
+  },
+  {
+    "name": "google-docs"
+  },
+  {
+    "name": "google-domains"
+  },
+  {
+    "name": "google-drive"
+  },
+  {
+    "name": "google-earth"
+  },
+  {
+    "name": "google-fi"
+  },
+  {
+    "name": "google-fit"
+  },
+  {
+    "name": "google-fonts"
+  },
+  {
+    "name": "google-forms"
+  },
+  {
+    "name": "google-home"
+  },
+  {
+    "name": "google-keep"
+  },
+  {
+    "name": "google-lens"
+  },
+  {
+    "name": "google-maps"
+  },
+  {
+    "name": "google-meet"
+  },
+  {
+    "name": "google-messages"
+  },
+  {
+    "name": "google-news"
+  },
+  {
+    "name": "google-one"
+  },
+  {
+    "name": "google-pay"
+  },
+  {
+    "name": "google-photos"
+  },
+  {
+    "name": "google-play-books"
+  },
+  {
+    "name": "google-play-games"
+  },
+  {
+    "name": "google-play"
+  },
+  {
+    "name": "google-podcasts"
+  },
+  {
+    "name": "google-scholar"
+  },
+  {
+    "name": "google-search-console"
+  },
+  {
+    "name": "google-sheets"
+  },
+  {
+    "name": "google-shopping"
+  },
+  {
+    "name": "google-sites"
+  },
+  {
+    "name": "google-slides"
+  },
+  {
+    "name": "google-street-view"
+  },
+  {
+    "name": "google-translate"
+  },
+  {
+    "name": "google-tv"
+  },
+  {
+    "name": "google-voice"
+  },
+  {
+    "name": "google-wallet"
+  },
+  {
+    "name": "google-wifi"
+  },
+  {
+    "name": "google"
+  },
+  {
+    "name": "gotify"
+  },
+  {
+    "name": "grafana"
+  },
+  {
+    "name": "gramps"
+  },
+  {
+    "name": "grandstream"
+  },
+  {
+    "name": "grav"
+  },
+  {
+    "name": "graylog"
+  },
+  {
+    "name": "grist"
+  },
+  {
+    "name": "grocy"
+  },
+  {
+    "name": "guacamole"
+  },
+  {
+    "name": "hammond"
+  },
+  {
+    "name": "handbrake"
+  },
+  {
+    "name": "haproxy"
+  },
+  {
+    "name": "harbor"
+  },
+  {
+    "name": "harvester"
+  },
+  {
+    "name": "hastypaste"
+  },
+  {
+    "name": "hasura"
+  },
+  {
+    "name": "hatsh"
+  },
+  {
+    "name": "healthchecks"
+  },
+  {
+    "name": "heimdall"
+  },
+  {
+    "name": "helium-token"
+  },
+  {
+    "name": "hetzner"
+  },
+  {
+    "name": "hexo"
+  },
+  {
+    "name": "hikvision"
+  },
+  {
+    "name": "homarr"
+  },
+  {
+    "name": "home-assistant-alt"
+  },
+  {
+    "name": "home-assistant"
+  },
+  {
+    "name": "homebox"
+  },
+  {
+    "name": "homebridge"
+  },
+  {
+    "name": "homer"
+  },
+  {
+    "name": "hoobs"
+  },
+  {
+    "name": "hoppscotch"
+  },
+  {
+    "name": "hotio"
+  },
+  {
+    "name": "hp"
+  },
+  {
+    "name": "html"
+  },
+  {
+    "name": "huawei"
+  },
+  {
+    "name": "hubitat"
+  },
+  {
+    "name": "hugging-face"
+  },
+  {
+    "name": "huginn"
+  },
+  {
+    "name": "hugo"
+  },
+  {
+    "name": "humhub"
+  },
+  {
+    "name": "hydra"
+  },
+  {
+    "name": "icecast"
+  },
+  {
+    "name": "icinga"
+  },
+  {
+    "name": "idrac"
+  },
+  {
+    "name": "ilo"
+  },
+  {
+    "name": "immich"
+  },
+  {
+    "name": "influxdb"
+  },
+  {
+    "name": "infoblox"
+  },
+  {
+    "name": "instagram"
+  },
+  {
+    "name": "inventree"
+  },
+  {
+    "name": "invidious"
+  },
+  {
+    "name": "invisioncommunity"
+  },
+  {
+    "name": "invoiceninja"
+  },
+  {
+    "name": "iobroker"
+  },
+  {
+    "name": "ionos"
+  },
+  {
+    "name": "ipboard"
+  },
+  {
+    "name": "ipfs"
+  },
+  {
+    "name": "ispconfig"
+  },
+  {
+    "name": "it-tools"
+  },
+  {
+    "name": "jackett"
+  },
+  {
+    "name": "jaeger"
+  },
+  {
+    "name": "jamstack"
+  },
+  {
+    "name": "java"
+  },
+  {
+    "name": "javascript"
+  },
+  {
+    "name": "jeedom"
+  },
+  {
+    "name": "jekyll"
+  },
+  {
+    "name": "jellyfin"
+  },
+  {
+    "name": "jellyseerr"
+  },
+  {
+    "name": "jellystat"
+  },
+  {
+    "name": "jelu"
+  },
+  {
+    "name": "jenkins"
+  },
+  {
+    "name": "jetbrains-youtrack"
+  },
+  {
+    "name": "jio"
+  },
+  {
+    "name": "jira"
+  },
+  {
+    "name": "jitsi-meet"
+  },
+  {
+    "name": "jitsi"
+  },
+  {
+    "name": "joomla"
+  },
+  {
+    "name": "joplin"
+  },
+  {
+    "name": "julia"
+  },
+  {
+    "name": "jupyter"
+  },
+  {
+    "name": "kamatera"
+  },
+  {
+    "name": "kanboard"
+  },
+  {
+    "name": "kasm-workspaces"
+  },
+  {
+    "name": "kasm"
+  },
+  {
+    "name": "kasten-k10"
+  },
+  {
+    "name": "kaufland"
+  },
+  {
+    "name": "kavita"
+  },
+  {
+    "name": "keenetic-new"
+  },
+  {
+    "name": "keenetic"
+  },
+  {
+    "name": "keila"
+  },
+  {
+    "name": "kerberos"
+  },
+  {
+    "name": "keycloak"
+  },
+  {
+    "name": "keyoxide-alt"
+  },
+  {
+    "name": "keyoxide"
+  },
+  {
+    "name": "kibana"
+  },
+  {
+    "name": "kick"
+  },
+  {
+    "name": "kimai"
+  },
+  {
+    "name": "kinto"
+  },
+  {
+    "name": "kitana"
+  },
+  {
+    "name": "kitchenowl"
+  },
+  {
+    "name": "kiwix"
+  },
+  {
+    "name": "ko-fi"
+  },
+  {
+    "name": "kodi"
+  },
+  {
+    "name": "koel"
+  },
+  {
+    "name": "koillection"
+  },
+  {
+    "name": "komga"
+  },
+  {
+    "name": "kopia"
+  },
+  {
+    "name": "kotlin"
+  },
+  {
+    "name": "krusader"
+  },
+  {
+    "name": "kubernetes-dashboard"
+  },
+  {
+    "name": "kubernetes"
+  },
+  {
+    "name": "kutt"
+  },
+  {
+    "name": "lark"
+  },
+  {
+    "name": "leanote"
+  },
+  {
+    "name": "lemmy"
+  },
+  {
+    "name": "lets-encrypt"
+  },
+  {
+    "name": "libreddit"
+  },
+  {
+    "name": "librenms"
+  },
+  {
+    "name": "libreoffice"
+  },
+  {
+    "name": "librespeed"
+  },
+  {
+    "name": "lidarr"
+  },
+  {
+    "name": "lidl"
+  },
+  {
+    "name": "lighttpd"
+  },
+  {
+    "name": "linkace"
+  },
+  {
+    "name": "linkding"
+  },
+  {
+    "name": "linkedin"
+  },
+  {
+    "name": "linode"
+  },
+  {
+    "name": "linux-mint"
+  },
+  {
+    "name": "linuxserver-io"
+  },
+  {
+    "name": "liremdb"
+  },
+  {
+    "name": "littlelink-custom"
+  },
+  {
+    "name": "lnbits"
+  },
+  {
+    "name": "logitech-gaming"
+  },
+  {
+    "name": "logitech-legacy"
+  },
+  {
+    "name": "logitech"
+  },
+  {
+    "name": "logstash"
+  },
+  {
+    "name": "longhorn"
+  },
+  {
+    "name": "lua"
+  },
+  {
+    "name": "mailcow"
+  },
+  {
+    "name": "mailfence"
+  },
+  {
+    "name": "mailinabox"
+  },
+  {
+    "name": "mainsail"
+  },
+  {
+    "name": "manjaro-linux"
+  },
+  {
+    "name": "maptiler"
+  },
+  {
+    "name": "mariadb"
+  },
+  {
+    "name": "mastodon"
+  },
+  {
+    "name": "matomo"
+  },
+  {
+    "name": "matrix-synapse"
+  },
+  {
+    "name": "matrix"
+  },
+  {
+    "name": "mattermost"
+  },
+  {
+    "name": "mautic"
+  },
+  {
+    "name": "mealie"
+  },
+  {
+    "name": "mediathekview"
+  },
+  {
+    "name": "mediawiki"
+  },
+  {
+    "name": "mega-nz"
+  },
+  {
+    "name": "meraki"
+  },
+  {
+    "name": "mercusys"
+  },
+  {
+    "name": "meta"
+  },
+  {
+    "name": "metabase"
+  },
+  {
+    "name": "metube"
+  },
+  {
+    "name": "microsoft-office"
+  },
+  {
+    "name": "microsoft-todo"
+  },
+  {
+    "name": "microsoft"
+  },
+  {
+    "name": "microsoft365-admin-center"
+  },
+  {
+    "name": "mikrotik"
+  },
+  {
+    "name": "minecraft"
+  },
+  {
+    "name": "miniflux"
+  },
+  {
+    "name": "minio"
+  },
+  {
+    "name": "mobotix"
+  },
+  {
+    "name": "modrinth"
+  },
+  {
+    "name": "mojeek"
+  },
+  {
+    "name": "monero"
+  },
+  {
+    "name": "mongodb"
+  },
+  {
+    "name": "monica"
+  },
+  {
+    "name": "moodle"
+  },
+  {
+    "name": "motioneye"
+  },
+  {
+    "name": "mqtt"
+  },
+  {
+    "name": "mstream"
+  },
+  {
+    "name": "mullvad"
+  },
+  {
+    "name": "mumble"
+  },
+  {
+    "name": "musicbrainz"
+  },
+  {
+    "name": "mysql"
+  },
+  {
+    "name": "n8n"
+  },
+  {
+    "name": "nagios"
+  },
+  {
+    "name": "navidrome"
+  },
+  {
+    "name": "neko"
+  },
+  {
+    "name": "neocities"
+  },
+  {
+    "name": "netapp"
+  },
+  {
+    "name": "netboot"
+  },
+  {
+    "name": "netbox"
+  },
+  {
+    "name": "netdata"
+  },
+  {
+    "name": "netflix"
+  },
+  {
+    "name": "netgear"
+  },
+  {
+    "name": "netlify"
+  },
+  {
+    "name": "netsurf"
+  },
+  {
+    "name": "newsblur"
+  },
+  {
+    "name": "nextcloud-blue"
+  },
+  {
+    "name": "nextcloud-calendar"
+  },
+  {
+    "name": "nextcloud-cookbook"
+  },
+  {
+    "name": "nextcloud-cospend"
+  },
+  {
+    "name": "nextcloud-deck"
+  },
+  {
+    "name": "nextcloud-files"
+  },
+  {
+    "name": "nextcloud-ncdownloader"
+  },
+  {
+    "name": "nextcloud-news"
+  },
+  {
+    "name": "nextcloud-notes"
+  },
+  {
+    "name": "nextcloud-photos"
+  },
+  {
+    "name": "nextcloud-tasks"
+  },
+  {
+    "name": "nextcloud-timemanager"
+  },
+  {
+    "name": "nextcloud-white"
+  },
+  {
+    "name": "nextcloud"
+  },
+  {
+    "name": "nextdns"
+  },
+  {
+    "name": "nextjs"
+  },
+  {
+    "name": "nginx-proxy-manager"
+  },
+  {
+    "name": "nginx"
+  },
+  {
+    "name": "nitter"
+  },
+  {
+    "name": "nocodb"
+  },
+  {
+    "name": "node-red"
+  },
+  {
+    "name": "nodejs-alt"
+  },
+  {
+    "name": "nodejs"
+  },
+  {
+    "name": "nomad"
+  },
+  {
+    "name": "nomie"
+  },
+  {
+    "name": "nordvpn"
+  },
+  {
+    "name": "notion"
+  },
+  {
+    "name": "ntfy"
+  },
+  {
+    "name": "nzbhydra2"
+  },
+  {
+    "name": "obico"
+  },
+  {
+    "name": "obsidian"
+  },
+  {
+    "name": "oculus"
+  },
+  {
+    "name": "odoo"
+  },
+  {
+    "name": "office-365"
+  },
+  {
+    "name": "olivetin"
+  },
+  {
+    "name": "omada"
+  },
+  {
+    "name": "omnidb"
+  },
+  {
+    "name": "onedev"
+  },
+  {
+    "name": "onlyoffice"
+  },
+  {
+    "name": "openai"
+  },
+  {
+    "name": "openeats"
+  },
+  {
+    "name": "opengist"
+  },
+  {
+    "name": "openhab"
+  },
+  {
+    "name": "openmediavault"
+  },
+  {
+    "name": "openoffice"
+  },
+  {
+    "name": "openproject"
+  },
+  {
+    "name": "opensearch"
+  },
+  {
+    "name": "openstack"
+  },
+  {
+    "name": "openstreetmap"
+  },
+  {
+    "name": "opensuse"
+  },
+  {
+    "name": "openvas"
+  },
+  {
+    "name": "openvpn"
+  },
+  {
+    "name": "openwrt"
+  },
+  {
+    "name": "opera-touch"
+  },
+  {
+    "name": "opera"
+  },
+  {
+    "name": "opnsense"
+  },
+  {
+    "name": "oracle-cloud"
+  },
+  {
+    "name": "oracle"
+  },
+  {
+    "name": "orange"
+  },
+  {
+    "name": "origin"
+  },
+  {
+    "name": "oscarr"
+  },
+  {
+    "name": "osticket"
+  },
+  {
+    "name": "overseerr"
+  },
+  {
+    "name": "ovh"
+  },
+  {
+    "name": "ovirt"
+  },
+  {
+    "name": "owncloud"
+  },
+  {
+    "name": "pagerduty"
+  },
+  {
+    "name": "palemoon"
+  },
+  {
+    "name": "paperless-ng"
+  },
+  {
+    "name": "paperless-ngx"
+  },
+  {
+    "name": "paperless"
+  },
+  {
+    "name": "papermerge"
+  },
+  {
+    "name": "partkeepr"
+  },
+  {
+    "name": "pastebin"
+  },
+  {
+    "name": "paypal"
+  },
+  {
+    "name": "peertube"
+  },
+  {
+    "name": "pfsense"
+  },
+  {
+    "name": "pgadmin"
+  },
+  {
+    "name": "phoneinfoga"
+  },
+  {
+    "name": "photonix"
+  },
+  {
+    "name": "photoprism"
+  },
+  {
+    "name": "photostructure"
+  },
+  {
+    "name": "photoview"
+  },
+  {
+    "name": "php"
+  },
+  {
+    "name": "phpmyadmin"
+  },
+  {
+    "name": "pi-hole"
+  },
+  {
+    "name": "pia"
+  },
+  {
+    "name": "picsur"
+  },
+  {
+    "name": "pigallery2"
+  },
+  {
+    "name": "pikvm"
+  },
+  {
+    "name": "pingdom"
+  },
+  {
+    "name": "pingvin-share"
+  },
+  {
+    "name": "pingvin"
+  },
+  {
+    "name": "pinterest"
+  },
+  {
+    "name": "pioneer"
+  },
+  {
+    "name": "pirate-proxy"
+  },
+  {
+    "name": "piwigo"
+  },
+  {
+    "name": "pixelfed"
+  },
+  {
+    "name": "planka"
+  },
+  {
+    "name": "plausible"
+  },
+  {
+    "name": "pleroma"
+  },
+  {
+    "name": "plesk"
+  },
+  {
+    "name": "plex-alt"
+  },
+  {
+    "name": "plex"
+  },
+  {
+    "name": "plexrequests"
+  },
+  {
+    "name": "plume"
+  },
+  {
+    "name": "podify"
+  },
+  {
+    "name": "poly"
+  },
+  {
+    "name": "polywork"
+  },
+  {
+    "name": "portainer"
+  },
+  {
+    "name": "portus"
+  },
+  {
+    "name": "poste"
+  },
+  {
+    "name": "postgres"
+  },
+  {
+    "name": "powerdns"
+  },
+  {
+    "name": "printer"
+  },
+  {
+    "name": "pritunl"
+  },
+  {
+    "name": "privacyidea"
+  },
+  {
+    "name": "private-internet-access"
+  },
+  {
+    "name": "privatebin"
+  },
+  {
+    "name": "projectsend"
+  },
+  {
+    "name": "prometheus"
+  },
+  {
+    "name": "proton-calendar"
+  },
+  {
+    "name": "proton-drive"
+  },
+  {
+    "name": "proton-mail"
+  },
+  {
+    "name": "proton-vpn"
+  },
+  {
+    "name": "prowlarr"
+  },
+  {
+    "name": "proxmox"
+  },
+  {
+    "name": "prtg"
+  },
+  {
+    "name": "pterodactyl"
+  },
+  {
+    "name": "pufferpanel"
+  },
+  {
+    "name": "pushfish"
+  },
+  {
+    "name": "pushover"
+  },
+  {
+    "name": "putty"
+  },
+  {
+    "name": "pydio"
+  },
+  {
+    "name": "pyload"
+  },
+  {
+    "name": "python"
+  },
+  {
+    "name": "qbittorrent"
+  },
+  {
+    "name": "qdirstat"
+  },
+  {
+    "name": "qinglong"
+  },
+  {
+    "name": "qnap-alt"
+  },
+  {
+    "name": "qnap"
+  },
+  {
+    "name": "questdb"
+  },
+  {
+    "name": "quetre"
+  },
+  {
+    "name": "qutebrowser"
+  },
+  {
+    "name": "r"
+  },
+  {
+    "name": "rabbitmq"
+  },
+  {
+    "name": "radarr"
+  },
+  {
+    "name": "radicale"
+  },
+  {
+    "name": "rainloop"
+  },
+  {
+    "name": "rancher"
+  },
+  {
+    "name": "raspberrypi"
+  },
+  {
+    "name": "rclone"
+  },
+  {
+    "name": "rdt-client"
+  },
+  {
+    "name": "readarr"
+  },
+  {
+    "name": "readthedocs"
+  },
+  {
+    "name": "real-debrid"
+  },
+  {
+    "name": "recalbox"
+  },
+  {
+    "name": "recipesage"
+  },
+  {
+    "name": "reddit"
+  },
+  {
+    "name": "redis"
+  },
+  {
+    "name": "requestrr"
+  },
+  {
+    "name": "resiliosync"
+  },
+  {
+    "name": "rhasspy"
+  },
+  {
+    "name": "rhodecode"
+  },
+  {
+    "name": "rimgo"
+  },
+  {
+    "name": "riot"
+  },
+  {
+    "name": "rocketchat"
+  },
+  {
+    "name": "rocky-linux"
+  },
+  {
+    "name": "romm"
+  },
+  {
+    "name": "rook"
+  },
+  {
+    "name": "roundcube"
+  },
+  {
+    "name": "router"
+  },
+  {
+    "name": "rport"
+  },
+  {
+    "name": "rss-bridge"
+  },
+  {
+    "name": "rstudio"
+  },
+  {
+    "name": "rstudioserver"
+  },
+  {
+    "name": "ruby"
+  },
+  {
+    "name": "rundeck"
+  },
+  {
+    "name": "runonflux"
+  },
+  {
+    "name": "rust"
+  },
+  {
+    "name": "rustdesk"
+  },
+  {
+    "name": "rutorrent"
+  },
+  {
+    "name": "ryot"
+  },
+  {
+    "name": "sabnzbd-alt"
+  },
+  {
+    "name": "sabnzbd"
+  },
+  {
+    "name": "safari-ios"
+  },
+  {
+    "name": "samsung-internet"
+  },
+  {
+    "name": "sandstorm"
+  },
+  {
+    "name": "scrutiny"
+  },
+  {
+    "name": "seafile"
+  },
+  {
+    "name": "searx"
+  },
+  {
+    "name": "searxng"
+  },
+  {
+    "name": "semaphore"
+  },
+  {
+    "name": "sendinblue"
+  },
+  {
+    "name": "sensu"
+  },
+  {
+    "name": "sentry"
+  },
+  {
+    "name": "servarr"
+  },
+  {
+    "name": "serviio"
+  },
+  {
+    "name": "shell-tips"
+  },
+  {
+    "name": "shell"
+  },
+  {
+    "name": "shellngn"
+  },
+  {
+    "name": "shelly"
+  },
+  {
+    "name": "shiori"
+  },
+  {
+    "name": "shlink"
+  },
+  {
+    "name": "shoko"
+  },
+  {
+    "name": "sickbeard"
+  },
+  {
+    "name": "signal-transparent"
+  },
+  {
+    "name": "signal"
+  },
+  {
+    "name": "simplelogin"
+  },
+  {
+    "name": "sinusbot"
+  },
+  {
+    "name": "skype"
+  },
+  {
+    "name": "slack"
+  },
+  {
+    "name": "slice"
+  },
+  {
+    "name": "snapchat"
+  },
+  {
+    "name": "snapdrop"
+  },
+  {
+    "name": "sogo"
+  },
+  {
+    "name": "sonarqube"
+  },
+  {
+    "name": "sonarr"
+  },
+  {
+    "name": "sourcegraph"
+  },
+  {
+    "name": "spamassassin"
+  },
+  {
+    "name": "sparkleshare"
+  },
+  {
+    "name": "sphinx-doc"
+  },
+  {
+    "name": "sphinx-relay"
+  },
+  {
+    "name": "sphinx"
+  },
+  {
+    "name": "splunk"
+  },
+  {
+    "name": "spotify"
+  },
+  {
+    "name": "sqlitebrowser"
+  },
+  {
+    "name": "squidex"
+  },
+  {
+    "name": "sshwifty"
+  },
+  {
+    "name": "startpage"
+  },
+  {
+    "name": "stash"
+  },
+  {
+    "name": "steam"
+  },
+  {
+    "name": "stirling-pdf"
+  },
+  {
+    "name": "storj"
+  },
+  {
+    "name": "strapi"
+  },
+  {
+    "name": "supermicro"
+  },
+  {
+    "name": "swarmpit"
+  },
+  {
+    "name": "swift"
+  },
+  {
+    "name": "symmetricom"
+  },
+  {
+    "name": "syncthing"
+  },
+  {
+    "name": "synology-dsm"
+  },
+  {
+    "name": "synology"
+  },
+  {
+    "name": "taiga"
+  },
+  {
+    "name": "tailscale"
+  },
+  {
+    "name": "tandoor"
+  },
+  {
+    "name": "tandoorrecipes"
+  },
+  {
+    "name": "taskcafe"
+  },
+  {
+    "name": "tasmota"
+  },
+  {
+    "name": "tautulli"
+  },
+  {
+    "name": "teamcity"
+  },
+  {
+    "name": "telegraf"
+  },
+  {
+    "name": "telegram"
+  },
+  {
+    "name": "teleport"
+  },
+  {
+    "name": "tenda"
+  },
+  {
+    "name": "terminal"
+  },
+  {
+    "name": "terraform"
+  },
+  {
+    "name": "teslamate"
+  },
+  {
+    "name": "thanos"
+  },
+  {
+    "name": "the-pirate-bay"
+  },
+  {
+    "name": "the-proxy-bay"
+  },
+  {
+    "name": "theia"
+  },
+  {
+    "name": "thelounge"
+  },
+  {
+    "name": "theodinproject"
+  },
+  {
+    "name": "thingsboard"
+  },
+  {
+    "name": "thunderbird"
+  },
+  {
+    "name": "tiktok"
+  },
+  {
+    "name": "timetagger"
+  },
+  {
+    "name": "todoist"
+  },
+  {
+    "name": "tooljet"
+  },
+  {
+    "name": "traccar"
+  },
+  {
+    "name": "traefik"
+  },
+  {
+    "name": "traggo"
+  },
+  {
+    "name": "trakt"
+  },
+  {
+    "name": "transmission"
+  },
+  {
+    "name": "trilium"
+  },
+  {
+    "name": "truenas"
+  },
+  {
+    "name": "tubesync"
+  },
+  {
+    "name": "turbopack-light"
+  },
+  {
+    "name": "turbopack"
+  },
+  {
+    "name": "tux"
+  },
+  {
+    "name": "tvheadend"
+  },
+  {
+    "name": "twingate"
+  },
+  {
+    "name": "twitch"
+  },
+  {
+    "name": "twitter"
+  },
+  {
+    "name": "typescript"
+  },
+  {
+    "name": "typo3"
+  },
+  {
+    "name": "ubiquiti-networks"
+  },
+  {
+    "name": "ubiquiti"
+  },
+  {
+    "name": "ubuntu-alt"
+  },
+  {
+    "name": "ubuntu"
+  },
+  {
+    "name": "uc-browser"
+  },
+  {
+    "name": "udemy"
+  },
+  {
+    "name": "ultimate-guitar"
+  },
+  {
+    "name": "umami-analytics"
+  },
+  {
+    "name": "umami"
+  },
+  {
+    "name": "umbrel"
+  },
+  {
+    "name": "unifi"
+  },
+  {
+    "name": "unraid-alt"
+  },
+  {
+    "name": "unraid"
+  },
+  {
+    "name": "untangle"
+  },
+  {
+    "name": "ups"
+  },
+  {
+    "name": "upsnap"
+  },
+  {
+    "name": "uptime-kuma"
+  },
+  {
+    "name": "valetudo"
+  },
+  {
+    "name": "vault"
+  },
+  {
+    "name": "vaultwarden"
+  },
+  {
+    "name": "veeam"
+  },
+  {
+    "name": "vercel-light"
+  },
+  {
+    "name": "vercel"
+  },
+  {
+    "name": "verizon"
+  },
+  {
+    "name": "vi"
+  },
+  {
+    "name": "virgin-media"
+  },
+  {
+    "name": "virtualmin"
+  },
+  {
+    "name": "viseron"
+  },
+  {
+    "name": "vivaldi"
+  },
+  {
+    "name": "vmware-workstation"
+  },
+  {
+    "name": "vmware"
+  },
+  {
+    "name": "voip-ms"
+  },
+  {
+    "name": "vscode"
+  },
+  {
+    "name": "vultr"
+  },
+  {
+    "name": "wakatime"
+  },
+  {
+    "name": "wallabag"
+  },
+  {
+    "name": "watchtower"
+  },
+  {
+    "name": "waze"
+  },
+  {
+    "name": "wazuh"
+  },
+  {
+    "name": "webhook"
+  },
+  {
+    "name": "webhookd"
+  },
+  {
+    "name": "webkit"
+  },
+  {
+    "name": "webmin"
+  },
+  {
+    "name": "webtorrent"
+  },
+  {
+    "name": "wekan"
+  },
+  {
+    "name": "wger"
+  },
+  {
+    "name": "whats-up-docker"
+  },
+  {
+    "name": "whatsapp"
+  },
+  {
+    "name": "whisparr"
+  },
+  {
+    "name": "windows-10"
+  },
+  {
+    "name": "windows-95"
+  },
+  {
+    "name": "windows-98"
+  },
+  {
+    "name": "wireguard"
+  },
+  {
+    "name": "woodpecker-ci"
+  },
+  {
+    "name": "wordpress"
+  },
+  {
+    "name": "wownero"
+  },
+  {
+    "name": "wud"
+  },
+  {
+    "name": "x"
+  },
+  {
+    "name": "xbrowsersync"
+  },
+  {
+    "name": "xmr"
+  },
+  {
+    "name": "xmrig"
+  },
+  {
+    "name": "xwiki"
+  },
+  {
+    "name": "yacht"
+  },
+  {
+    "name": "yahoo"
+  },
+  {
+    "name": "yandex"
+  },
+  {
+    "name": "ycombinator"
+  },
+  {
+    "name": "ynab"
+  },
+  {
+    "name": "your-spotify"
+  },
+  {
+    "name": "yourls"
+  },
+  {
+    "name": "youtube-kids"
+  },
+  {
+    "name": "youtube-music"
+  },
+  {
+    "name": "youtube"
+  },
+  {
+    "name": "youtubedl"
+  },
+  {
+    "name": "yts"
+  },
+  {
+    "name": "yunohost"
+  },
+  {
+    "name": "zabbix"
+  },
+  {
+    "name": "zabka"
+  },
+  {
+    "name": "zammad"
+  },
+  {
+    "name": "zendesk"
+  },
+  {
+    "name": "zerotier"
+  },
+  {
+    "name": "zigbee2mqtt"
+  },
+  {
+    "name": "zipline"
+  },
+  {
+    "name": "zohomail"
+  },
+  {
+    "name": "zoraxy"
+  },
+  {
+    "name": "zulip"
+  }
+]
