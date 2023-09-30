@@ -1,0 +1,20 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Update README
+        run: |
+          sed -i "s/最后一次更新时间：.*/最后一次更新时间：$(date '+%Y-%m-%d %H:%M:%S')/" README.md
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "$(date -u '+%Y-%m-%d %H:%M:%S')"
+          git push
