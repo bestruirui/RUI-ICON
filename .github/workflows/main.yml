@@ -15,8 +15,8 @@ jobs:
         run: |
           export TZ=Asia/Shanghai  
           sed -i "s/最后一次更新时间：.*/最后一次更新时间：$(date '+%Y-%m-%d %H:%M:%S')/" README.md
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "1004279909@qq.com"
+          git config --local user.name "bestruirui"
           git add README.md
           git commit -m "$(date -u '+%Y-%m-%d %H:%M:%S')"
           git push
