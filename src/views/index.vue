@@ -46,7 +46,7 @@
           <el-image
             lazy
             class="card_img"
-            :src="'https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/' + item.name + '.svg'"
+            :src="'https://cdn.jsdelivr.net/gh/bestruirui/RUI_ICON@icon/' + item.name + '.svg'"
           />
           <div class="card_txt" @click="openUrl(item.course)">
             {{ item.name }}
@@ -86,7 +86,7 @@ export default defineComponent({
     //读取图片
     function readName() {
   return new Promise((resolve, reject) => {
-    fetch("https://api.com/")
+    fetch("https://icon-api.bestrui.top/")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
@@ -126,7 +126,7 @@ export default defineComponent({
     async function handleClick(url) {
       //获取图片url
       //let currenturl = window.location.href;
-      let iconurl = 'https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/'  + url;
+      let iconurl = 'https://cdn.jsdelivr.net/gh/bestruirui/RUI_ICON@icon/'  + url;
       let fullurl =  iconurl;
       await toClipboard(fullurl);
       ElMessage({
