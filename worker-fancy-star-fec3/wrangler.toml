@@ -1,0 +1,8 @@
+name = "worker-fancy-star-fec3"
+main = "src/index.ts"
+compatibility_date = "2023-10-03"
+usage_model = "bundled"
+env = { }
+
+[triggers]
+crons = [ ]
