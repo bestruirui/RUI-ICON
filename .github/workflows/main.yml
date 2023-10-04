@@ -19,8 +19,13 @@ jobs:
           git clone https://github.com/walkxcode/dashboard-icons --depth 1
           mv -n dashboard-icons/svg/* .
           rm -rf dashboard-icons
-          git add .
-          git config --local user.email "1004279909@qq.com"
-          git config --local user.name "bestruirui"
-          git commit -m "$(date -u '+%Y-%m-%d %H:%M:%S')"
-          git push
+          if [ -n "$(git status --porcelain)" ]; then
+            git add .
+            git config --local user.email "1004279909@qq.com"
+            git config --local user.name "bestruirui"
+            git commit -m "$(date -u '+%Y-%m-%d %H:%M:%S')"
+            git push
+          else
+            echo "没有更新"
+          fi
+
