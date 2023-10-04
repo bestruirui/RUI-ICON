@@ -5,12 +5,6 @@
       <h4 class="head_txt">
         提供在线图标链接，用于个人NAS设备显示使用
       </h4>
-      <div>
-        <h4 class="head_txt">图标来自于<a href="https://github.com/walkxcode/dashboard-icons" style="color: #5d667a;text-decoration:none;" >此仓库</a>
-          <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-      </h4>
-      </div>
-      
       <div style="max-width: 400px;display: flex;">
         <el-input
         v-model="data.search"
@@ -38,7 +32,7 @@
       </div>
       <el-space wrap style="justify-content: center">
         <div
-          v-for="(item, index) in data.icondata"
+          v-for="(item, index) in pagedIconData"
           :key="index"
           class="card"
           @click="handleClick(item.name + '.svg')"
@@ -48,11 +42,19 @@
             class="card_img"
             :src="'https://cdn.jsdelivr.net/gh/bestruirui/RUI_ICON@icon/' + item.name + '.svg'"
           />
-          <div class="card_txt" @click="openUrl(item.course)">
+          <div class="card_txt" >
             {{ item.name }}
           </div>
         </div>
       </el-space>
+      <el-pagination
+        class="pagination"
+        layout="prev, pager, next"
+        :total="data.icondata.length"
+        :current-page.sync="currentPage"
+        :page-size="pageSize"
+        @current-change="handleCurrentChange"
+      />
     </div>
     <div class="foot">
       <div class="foot_txt">© 2023.09.30 | By <a href="https://github.com/bestruirui/RUI_ICON" style="color: #5d667a;">BESTRUI</a></div>
@@ -61,7 +63,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, reactive, onMounted } from "vue";
+import { defineComponent, reactive, onMounted, computed } from "vue";
 import { Search } from "@element-plus/icons-vue";
 import clipboard3 from "vue-clipboard3";
 import { ElMessage } from "element-plus";
@@ -76,6 +78,8 @@ export default defineComponent({
       icondata: [] as any,
       publicPath: process.env.BASE_URL,
     });
+    const currentPage = reactive({ value: 1 });
+    const pageSize = 21;
 
     //加载数据
     onMounted(async () => {
@@ -107,8 +111,6 @@ export default defineComponent({
   });
 }
 
-
-
     //搜索
     async function handleSearch() {
       let keyword = data.search;
@@ -120,6 +122,7 @@ export default defineComponent({
         }
       }
       data.icondata = arr;
+      currentPage.value = 1;
     }
 
     //按钮
@@ -135,22 +138,35 @@ export default defineComponent({
       });
     }
 
-    //打开url
-    function openUrl(url) {
-      window.open(url, "_blank");
+  
+
+    //分页
+    const pagedIconData = computed(() => {
+      const start = (currentPage.value - 1) * pageSize;
+      const end = start + pageSize;
+      return data.icondata.slice(start, end);
+    });
+
+    //当前页数改变时触发
+    function handleCurrentChange(val) {
+      currentPage.value = val;
     }
 
     return {
       data,
       handleClick,
       handleSearch,
-      openUrl,
       //图标
       Search,
+      currentPage,
+      pageSize,
+      pagedIconData,
+      handleCurrentChange,
     };
   },
 });
 </script>
+
 <style lang="scss">
 .index {
   height: 100%;
