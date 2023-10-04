@@ -36,7 +36,7 @@
         <div class="content_title">{{ data.selectlabel }}</div>
         <div class="content_sum">{{ data.icondata.length }}</div>
       </div>
-      <el-space wrap>
+      <el-space wrap style="justify-content: center">
         <div
           v-for="(item, index) in data.icondata"
           :key="index"
