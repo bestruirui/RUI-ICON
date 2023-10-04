@@ -567,6 +567,9 @@
     "name": "filebrowser"
   },
   {
+    "name": "filecloud"
+  },
+  {
     "name": "fileflows"
   },
   {
@@ -700,6 +703,9 @@
   },
   {
     "name": "gentoo"
+  },
+  {
+    "name": "get-iplayer"
   },
   {
     "name": "gigaset"
@@ -1437,6 +1443,9 @@
     "name": "neocities"
   },
   {
+    "name": "neonlink"
+  },
+  {
     "name": "netapp"
   },
   {
@@ -1995,6 +2004,9 @@
     "name": "ruby"
   },
   {
+    "name": "rumble"
+  },
+  {
     "name": "rundeck"
   },
   {
@@ -2212,6 +2224,9 @@
   },
   {
     "name": "teamcity"
+  },
+  {
+    "name": "teamspeak"
   },
   {
     "name": "telegraf"
@@ -2566,6 +2581,9 @@
   },
   {
     "name": "zipline"
+  },
+  {
+    "name": "zitadel"
   },
   {
     "name": "zohomail"

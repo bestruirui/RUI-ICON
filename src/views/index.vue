@@ -79,34 +79,40 @@ export default defineComponent({
 
     //加载数据
     onMounted(async () => {
-      let arr = await readLocalFile();
+      let arr = await readName();
       data.icondata = arr;
     });
 
-    //读取本地的图片
-    function readLocalFile() {
-      return new Promise((resolve, reject) => {
-        fetch(data.publicPath + "db.json?"+ new Date().getTime() )
-          .then((response) => response.json())
-          .then((data) => {
-            // 进行排序操作
-            function sortprice(a, b) {
-              return a.name.localeCompare(b.name);
-            }
-            data.sort(sortprice);
-            resolve(data);
-          })
-          .catch((error) => {
-            reject(error);
-          });
+    //读取图片
+    function readName() {
+  return new Promise((resolve, reject) => {
+    fetch("https://api.com/")
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        return response.json();
+      })
+      .then((data) => {
+        // 进行排序操作
+        function sortprice(a, b) {
+          return a.name.localeCompare(b.name);
+        }
+        data.sort(sortprice);
+        resolve(data);
+      })
+      .catch((error) => {
+        reject(error);
       });
-    }
+  });
+}
+
 
 
     //搜索
     async function handleSearch() {
       let keyword = data.search;
-      let tempdata = (await readLocalFile()) as any;
+      let tempdata = (await readName()) as any;
       let arr = [] as any;
       for (var i = 0; i < tempdata.length; i++) {
         if (tempdata[i].name.toUpperCase().indexOf(keyword.toUpperCase()) >= 0) {
