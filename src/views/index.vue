@@ -30,7 +30,18 @@
         <div class="content_title">{{ data.selectlabel }}</div>
         <div class="content_sum">{{ data.icondata.length }}</div>
       </div>
-      <el-space wrap style="justify-content: center">
+      <div v-if="state.isLoading" class="loading" style="margin-top: 185px; margin-bottom: 185px;">
+        <div className="sk-chase">
+        <div className="sk-chase-dot"></div>
+        <div className="sk-chase-dot"></div>
+        <div className="sk-chase-dot"></div>
+        <div className="sk-chase-dot"></div>
+        <div className="sk-chase-dot"></div>
+        <div className="sk-chase-dot"></div>
+      </div>
+      </div>
+      <el-space wrap style="justify-content: center;">
+        
         <div
           v-for="(item, index) in pagedIconData"
           :key="index"
@@ -54,7 +65,9 @@
         :current-page.sync="currentPage"
         :page-size="pageSize"
         @current-change="handleCurrentChange"
+        style="justify-content: center;"
       />
+      
     </div>
     <div class="foot">
       <div class="foot_txt">© 2023.09.30 | By <a href="https://github.com/bestruirui/RUI_ICON" style="color: #5d667a;">BESTRUI</a></div>
@@ -79,37 +92,43 @@ export default defineComponent({
       publicPath: process.env.BASE_URL,
     });
     const currentPage = reactive({ value: 1 });
-    const pageSize = 21;
+    const pageSize = 70;
+    const state = reactive({
+  isLoading: false
+});
+
 
     //加载数据
     onMounted(async () => {
+      state.isLoading = true;
       let arr = await readName();
       data.icondata = arr;
+      state.isLoading = false;
     });
 
     //读取图片
     function readName() {
-  return new Promise((resolve, reject) => {
-    fetch("https://icon-api.bestrui.top/")
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
-        }
-        return response.json();
-      })
-      .then((data) => {
-        // 进行排序操作
-        function sortprice(a, b) {
-          return a.name.localeCompare(b.name);
-        }
-        data.sort(sortprice);
-        resolve(data);
-      })
-      .catch((error) => {
-        reject(error);
+      return new Promise((resolve, reject) => {
+        fetch("https://icon-api.bestrui.top/")
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error("Network response was not ok");
+            }
+            return response.json();
+          })
+          .then((data) => {
+            // 进行排序操作
+            function sortprice(a, b) {
+              return a.name.localeCompare(b.name);
+            }
+            data.sort(sortprice);
+            resolve(data);
+          })
+          .catch((error) => {
+            reject(error);
+          });
       });
-  });
-}
+    }
 
     //搜索
     async function handleSearch() {
@@ -162,11 +181,11 @@ export default defineComponent({
       pageSize,
       pagedIconData,
       handleCurrentChange,
+      state,
     };
   },
 });
 </script>
-
 <style lang="scss">
 .index {
   height: 100%;
@@ -310,5 +329,61 @@ export default defineComponent({
   height: 18px;
   margin: 0 15px;
   // opacity: 0.6;
+}
+.sk-chase {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  animation: sk-chase 2.5s infinite linear both;
+}
+
+.sk-chase-dot {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0; 
+  animation: sk-chase-dot 2.0s infinite ease-in-out both; 
+}
+
+.sk-chase-dot:before {
+  content: '';
+  display: block;
+  width: 25%;
+  height: 25%;
+  background-color: #8b8b8b;
+  border-radius: 100%;
+  animation: sk-chase-dot-before 2.0s infinite ease-in-out both; 
+}
+
+.sk-chase-dot:nth-child(1) { animation-delay: -1.1s; }
+.sk-chase-dot:nth-child(2) { animation-delay: -1.0s; }
+.sk-chase-dot:nth-child(3) { animation-delay: -0.9s; }
+.sk-chase-dot:nth-child(4) { animation-delay: -0.8s; }
+.sk-chase-dot:nth-child(5) { animation-delay: -0.7s; }
+.sk-chase-dot:nth-child(6) { animation-delay: -0.6s; }
+.sk-chase-dot:nth-child(1):before { animation-delay: -1.1s; }
+.sk-chase-dot:nth-child(2):before { animation-delay: -1.0s; }
+.sk-chase-dot:nth-child(3):before { animation-delay: -0.9s; }
+.sk-chase-dot:nth-child(4):before { animation-delay: -0.8s; }
+.sk-chase-dot:nth-child(5):before { animation-delay: -0.7s; }
+.sk-chase-dot:nth-child(6):before { animation-delay: -0.6s; }
+
+@keyframes sk-chase {
+  100% { transform: rotate(360deg); } 
+}
+
+@keyframes sk-chase-dot {
+  80%, 100% { transform: rotate(360deg); } 
+}
+
+@keyframes sk-chase-dot-before {
+  50% {
+    transform: scale(0.4); 
+  } 100%, 0% {
+    transform: scale(1.0); 
+  } 
 }
 </style>
